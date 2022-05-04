@@ -18,13 +18,20 @@ body{
 div{
   padding: 5px;
 }
+h1{
+  font-size: 1.5rem;
+}
 p{
   color: hsl(220, 15%, 55%);
-  font-size: 0.7rem;
+  font-size: 1.1rem;
 }
 
 @media screen and (min-width: 375px){
   .main{
-    margin: 20vh auto;
+    margin: 8vh auto;
+    width: 300px;
+  }
+  .main img{
+    width: 300px;
   }
 }
